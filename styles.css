@@ -393,3 +393,64 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
+/* ABOUT SECTION */
+
+#About {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Optional, align items to the top */
+    position: relative;
+  }
+  
+  #About > * {
+    flex: 1; /* Each child element takes up equal space */
+    margin: 10px; /* Optional margin between elements */
+  }
+  
+  /* Additional styling if needed */
+  #About p, #About h1 {
+    flex-basis: 100%; /* These elements take up the full width */
+  }
+  
+  #About div {
+    flex-basis: calc(50% - 20px); /* Div elements take up half the width with some margin */
+  }
+
+  #About .arrow {
+    flex: 0; /* Image does not grow and retains its original size */
+    }
+
+.about-containers {
+    display: flex; /* Display children horizontally */
+    justify-content: space-between; /* Add space between the children */
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
