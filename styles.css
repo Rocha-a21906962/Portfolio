@@ -24,6 +24,7 @@ html {
     --menu-links-a-color: black;
     --btn-color-1-and-btn-color-2-border: rgb(53, 53, 53);
     --btn-color-2-color: black;
+    --btn-color-1-and-btn-color-2-background: black;
     --btn-color-1-and-btn-color-2-hover-color: white;
     --btn-color-1-and-btn-color-2-hover-background: rgb(53, 53, 53);
     --btn-color-1-hover-background: black;
@@ -43,6 +44,7 @@ html {
     --menu-links-a-color: white;
     --btn-color-1-and-btn-color-2-border: white;
     --btn-color-2-color: white;
+    --btn-color-1-and-btn-color-2-background: white;
     --btn-color-1-and-btn-color-2-hover-color: black;
     --btn-color-1-and-btn-color-2-hover-background: white;
     --btn-color-1-hover-background: white;
@@ -492,6 +494,33 @@ article {
 
 article .icon {
     cursor: default;
+}
+
+/* PROJECTS SECTION */
+
+#Projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
 }
 
 
